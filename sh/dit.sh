@@ -1,0 +1,1 @@
+torchrun --nnodes=1 --nproc_per_node=1 ./src/sample_ddp.py --num-fid-samples 50000 --sample-dir '/sample/0965'  --cfg-scale 1.5 --num-sampling-steps 50 --delta 0.965 --per-proc-batch-size 64  --save-cache boost_infer_static --cache-threshold 1 
